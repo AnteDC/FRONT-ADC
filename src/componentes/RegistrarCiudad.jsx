@@ -70,14 +70,14 @@ export default function RegistrarCiudad() {
                 <i className="fas fa-user-plus"></i>
               </div>
               <div className="card-header bg-info text-center">
-                <h4>Registrar ciudad</h4>
+                <h4>Registro nuevo usuario</h4>
               </div>
               <div className="card-body">
                 <form onSubmit={registro}>
                   <div className="row">
 
                     <div className="form-group">
-                      <label>Nombre de la ciudad</label>
+                      <label>Su Nombre</label>
                       <input type="text" className="form-control required" onChange={(e)=>setNombre(e.target.value)} />
                     </div>
 
