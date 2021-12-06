@@ -39,7 +39,7 @@ export default function RegistrarCiudad() {
 
       Swal.fire({
         icon:'success',
-        title:"Ciudad creada correctamente",
+        title:"Usuario creado correctamente",
         showConfirmButton:false,
         timer:1500
       })
